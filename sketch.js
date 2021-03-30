@@ -69,7 +69,12 @@ bottom.display;
 side1.display;
 side2.display;
 
-
+if (keyDown("right")){
+ helicopterSprite.x = helicopterSprite.x+5;
+  }
+  if (keyDown("left")){
+    helicopterSprite.x = helicopterSprite.x -5;
+  }
 
   drawSprites();
  
